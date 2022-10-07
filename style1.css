@@ -1,0 +1,102 @@
+.main{
+    background: rgb(147, 156, 133);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+
+}
+.topnav{
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    text-decoration: none;
+}
+.topnav ul{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+
+}
+.topnav ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 34px;
+
+}
+.topnav ul li a{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 34px;
+
+}
+.topnav a:hover {
+    color: rgb(8, 8, 8);
+    background: grey;
+    border: 2rem;
+    border-radius: 20px;
+}
+.header{
+    font-size: 40px;
+    color: blue;
+    border-bottom: 30px;
+    border-style: ridge;
+    text-align: center;
+}
+.wrap_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    background: url(./cover.webp)no-repeat top center;
+    background-size: cover;
+    row-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+.profile{
+    border-radius: 100%;
+    border-width: 30px;
+    box-shadow: 30px;
+}
+.profile:hover{
+    transition: 5ms;
+}
+.btn{
+
+    color: aqua;
+}
+#Call{
+    color: black;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+#Email{
+    color:black
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+
+}
+#Message{
+    color: rgb(35, 34, 39);
+    background-color: rgb(111, 0, 255);
+    border: none;
+    cursor: pointer;
+
+}
+.name{
+    font-size: 35px;
+    color: black;
+    font-style: -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
